@@ -7,4 +7,4 @@ function funkcja()
 {
     p.innerHTML=parseInt(liczba1.value)+parseInt(liczba2.value);
 }
-btn.addEventListener("onclick",funkcja);
+btn.addEventListener("click",funkcja);
