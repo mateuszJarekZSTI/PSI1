@@ -5,6 +5,6 @@ const p=document.querySelectorAll("p")[0];
 
 function funkcja()
 {
-    p.innerHTML=parseInt(liczba1)+parseInt(liczba2);
+    p.innerHTML=parseInt(liczba1.value)+parseInt(liczba2.value);
 }
 btn.addEventListener("onclick",funkcja);
